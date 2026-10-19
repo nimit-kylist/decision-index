@@ -15,7 +15,7 @@ def score_run(suite, results_path, engine, out_dir, reference_results=None):
     out.mkdir(parents=True, exist_ok=True)
     results = load_results(results_path)
     reference = load_results(reference_results) if reference_results else None
-    if editions.compatible(suite.edition["id"], "0.2"):
+    if editions.v2_family(suite.edition["id"]):
         return score_run_v02(suite, results, engine, out, reference)
     summary = benchmark_summary(suite, results, engine, reference)
     atomic_json(out / "benchmark-summary.json", summary)
@@ -101,7 +101,7 @@ def score_run_v02(suite, results, engine, out, reference=None):
         "engine": engine,
         "edition": e["id"],
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "suite": {"edition": e["name"], "requests": e["requests"], "scoreable": e["scoreable"], "excluded": e["excluded"], "added_requests": e["added_requests"], "benchmarks": e["benchmarks"], "rows_sha256": e["rows_sha256"], "added_sha256": e["added_sha256"]},
+        "suite": {"edition": e["name"], "requests": e["requests"], "scoreable": e["scoreable"], "excluded": e["excluded"], "added_requests": e["added_requests"], "benchmarks": e["benchmarks"], "rows_sha256": e["rows_sha256"], "added_sha256": e["added_sha256"], "gsm8k_sha256": e.get("gsm8k_sha256")},
         "completed": completed,
         "complete": completed >= expected,
         "counts": dict(counts),
@@ -131,7 +131,7 @@ def upload_run(repo_id, run_dir, path_in_repo="", private=True, token=None, comp
     run_dir = Path(run_dir)
     staged = run_dir / "_upload"
     staged.mkdir(exist_ok=True)
-    for name in ("benchmark-summary.json", "index.json", "scores.json", "environment.json", "status.json"):
+    for name in ("benchmark-summary.json", "index.json", "scores.json", "vision-scores.json", "environment.json", "status.json"):
         if (run_dir / name).exists():
             shutil.copyfile(run_dir / name, staged / name)
     results = run_dir / "results.jsonl"

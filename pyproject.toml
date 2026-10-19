@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "decision-index"
-version = "0.2.1"
+version = "0.3"
 description = "Reproduction kit for the Decision Index benchmark: frozen suite, engines, scorers and index math."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -29,6 +29,11 @@ rebuild = [
   "mido>=1.3",
   "python-chess>=1.10",
   "tiktoken>=0.7",
+]
+vision = [
+  "pillow>=10",
+  "pyarrow>=20",
+  "numpy>=1.26",
 ]
 dev = ["pytest>=8"]
 

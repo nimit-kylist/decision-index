@@ -45,6 +45,8 @@ def detect_edition(directory):
         name = json.loads(manifest.read_text()).get("edition")
         if name:
             return editions.get(name)["id"]
+    if (directory / editions.GSM8K_FILE).exists():
+        return "0.3"
     return "0.2" if (directory / editions.ADDED_FILE).exists() else "0.1"
 
 
@@ -56,10 +58,11 @@ class Suite:
         self.edition = editions.get(edition or detect_edition(self.directory))
         self.rows_path = self.directory / editions.ROWS_FILE
         self.added_path = self.directory / editions.ADDED_FILE if self.edition["added_sha256"] else None
+        self.gsm8k_path = self.directory / editions.GSM8K_FILE if self.edition.get("gsm8k_sha256") else None
         self.exclusions_path = self.directory / editions.EXCLUSIONS_FILE
         self.manifest_path = self.directory / editions.MANIFEST_FILE
         self.in_edition = editions.in_edition(self.edition["id"])
-        missing = [p for p in (self.rows_path, self.added_path) if p is not None and not p.exists()]
+        missing = [p for p in (self.rows_path, self.added_path, self.gsm8k_path) if p is not None and not p.exists()]
         if missing:
             raise FileNotFoundError(f"missing {', '.join(map(str, missing))}; build it with `decision-index suite rebuild --edition {self.edition['id']}` and `suite import`")
         found = self.manifest().get("edition")
@@ -68,7 +71,7 @@ class Suite:
 
     @property
     def row_paths(self):
-        return [self.rows_path] + ([self.added_path] if self.added_path else [])
+        return [self.rows_path] + ([self.added_path] if self.added_path else []) + ([self.gsm8k_path] if self.gsm8k_path else [])
 
     def manifest(self):
         return json.loads(self.manifest_path.read_text()) if self.manifest_path.exists() else {}
@@ -101,6 +104,10 @@ class Suite:
             added = sha256_file(self.added_path, gunzip=self.added_path.suffix == ".gz")
             report.update(added_file=str(self.added_path), added_sha256=added, added_match=added == e["added_sha256"])
             report["match"] = report["match"] and report["added_match"]
+        if self.gsm8k_path:
+            gsm = sha256_file(self.gsm8k_path, gunzip=self.gsm8k_path.suffix == ".gz")
+            report.update(gsm8k_file=str(self.gsm8k_path), gsm8k_sha256=gsm, gsm8k_match=gsm == e["gsm8k_sha256"])
+            report["match"] = report["match"] and report["gsm8k_match"]
         if self.exclusions_path.exists():
             ex = sha256_file(self.exclusions_path)
             report.update(exclusions_sha256=ex, exclusions_match=ex == e["exclusions_sha256"])

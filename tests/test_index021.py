@@ -101,7 +101,7 @@ def test_acos_per_review_f1():
 
 def test_editions():
     e = editions.get("0.2.1")
-    assert editions.get("release-v2.1") is e and editions.DEFAULT == "0.2.1"
+    assert editions.get("release-v2.1") is e
     assert e["requests"] == 120340 and e["scoreable"] == 119898 and e["added_requests"] == 30419
     for k in ("rows_sha256", "rows_gz_sha256", "added_sha256", "exclusions_sha256", "dataset", "suite_dir"):
         assert e[k] == editions.get("0.2")[k]

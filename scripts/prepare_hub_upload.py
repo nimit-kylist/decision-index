@@ -14,7 +14,8 @@ def main():
     ap = argparse.ArgumentParser(description="Stage the frozen-suite files of one edition for upload to a private Hub dataset.")
     ap.add_argument("--edition", default=editions.DEFAULT, choices=sorted(editions.EDITIONS))
     ap.add_argument("--rows", required=True, help="path to selected-rows.jsonl(.gz)")
-    ap.add_argument("--added-rows", help="path to added-rows.jsonl(.gz) (0.2 and 0.2.1)")
+    ap.add_argument("--added-rows", help="path to added-rows.jsonl(.gz) (0.2, 0.2.1 and 0.3)")
+    ap.add_argument("--gsm8k-rows", help="path to gsm8k-rows.jsonl(.gz) (0.3)")
     ap.add_argument("--exclusions")
     ap.add_argument("--manifest")
     ap.add_argument("--out", default="hub-upload")
@@ -32,6 +33,12 @@ def main():
         copy_rows(a.added_rows, out / editions.ADDED_FILE)
         digest = sha256_file(out / editions.ADDED_FILE, gunzip=True)
         checks[editions.ADDED_FILE] = {"uncompressed_sha256": digest, "expected": e["added_sha256"], "ok": digest == e["added_sha256"]}
+    if e.get("gsm8k_sha256"):
+        if not a.gsm8k_rows:
+            raise SystemExit(f"edition {e['id']} needs --gsm8k-rows")
+        copy_rows(a.gsm8k_rows, out / editions.GSM8K_FILE)
+        digest = sha256_file(out / editions.GSM8K_FILE, gunzip=True)
+        checks[editions.GSM8K_FILE] = {"uncompressed_sha256": digest, "expected": e["gsm8k_sha256"], "ok": digest == e["gsm8k_sha256"]}
     for src, name, expected in ((a.exclusions or hub_file(e["id"], editions.EXCLUSIONS_FILE), editions.EXCLUSIONS_FILE, e["exclusions_sha256"]), (a.manifest or hub_file(e["id"], editions.MANIFEST_FILE), editions.MANIFEST_FILE, None)):
         shutil.copyfile(src, out / name)
         digest = sha256_file(out / name)

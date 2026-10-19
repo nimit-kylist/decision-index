@@ -1,0 +1,2106 @@
+{
+ "source": "Decision Index 0.3 board, public index (per-benchmark public results only)",
+ "entrants": {
+  "jev": {
+   "name": "Jev",
+   "public_index": 57.96,
+   "benchmarks": {
+    "25": {
+     "raw": 0.7857,
+     "skill": 0.7143,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.7176,
+     "skill": 0.662,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.1722,
+     "skill": 0.0984,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.6609,
+     "skill": 0.4609,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.2642,
+     "skill": 0.2544,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.7298,
+     "skill": 0.5713,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7264,
+     "skill": 0.4528,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.2036,
+     "skill": 0.0473,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.827,
+     "skill": 0.8055,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.9292,
+     "skill": 0.8973,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.9195,
+     "skill": 0.839,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.7169,
+     "skill": 0.5906,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7479,
+     "skill": 0.6224,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9452,
+     "skill": 0.9269,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.2952,
+     "skill": 0.2727,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.8698,
+     "skill": 0.8085,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.5051,
+     "skill": 0.3633,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.6463,
+     "skill": 0.4695,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.8406,
+     "skill": 0.6899,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.7653,
+     "skill": 0.5135,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.7974,
+     "skill": 0.7948,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.8927,
+     "skill": 0.8921,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.4752,
+     "skill": 0.4063,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.5521,
+     "skill": 0.4382,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.6255,
+     "skill": 0.251,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.7285,
+     "skill": 0.457,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9575,
+     "skill": 0.9426,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6528,
+     "skill": 0.5991,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.8819,
+     "skill": 0.8796,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.5227,
+     "skill": 0.5227,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.8097,
+     "skill": 0.7463,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9092,
+     "skill": 0.8184,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6187,
+     "skill": 0.2374,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.1658,
+     "skill": 0.1593,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.6441,
+     "skill": 0.2883,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.4594,
+     "skill": 0.2154,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7008,
+     "skill": 0.6259,
+     "coverage": 1
+    }
+   }
+  },
+  "pplx-decider-v1.1-27b": {
+   "name": "Perplexity Decider v1.1 (27B)",
+   "public_index": 62.25,
+   "benchmarks": {
+    "25": {
+     "raw": 0.5612,
+     "skill": 0.415,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.7657,
+     "skill": 0.7197,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.1768,
+     "skill": 0.1034,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.7074,
+     "skill": 0.5348,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.2818,
+     "skill": 0.2723,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.8561,
+     "skill": 0.7718,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7932,
+     "skill": 0.5864,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1617,
+     "skill": 0,
+     "coverage": 0.998
+    },
+    "57": {
+     "raw": 0.71,
+     "skill": 0.6738,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.8402,
+     "skill": 0.7684,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.9242,
+     "skill": 0.8484,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.7838,
+     "skill": 0.6873,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7428,
+     "skill": 0.6147,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9324,
+     "skill": 0.9099,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.2824,
+     "skill": 0.2594,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9542,
+     "skill": 0.9326,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.7104,
+     "skill": 0.6274,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.7672,
+     "skill": 0.6507,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.8488,
+     "skill": 0.7058,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.8314,
+     "skill": 0.6504,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.8057,
+     "skill": 0.8032,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.9152,
+     "skill": 0.9147,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.5085,
+     "skill": 0.444,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.604,
+     "skill": 0.5033,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.7315,
+     "skill": 0.463,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.7412,
+     "skill": 0.4824,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9717,
+     "skill": 0.9617,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6758,
+     "skill": 0.6256,
+     "coverage": 0.9971
+    },
+    "3": {
+     "raw": 0.8543,
+     "skill": 0.8515,
+     "coverage": 0.9961
+    },
+    "9": {
+     "raw": 0.8068,
+     "skill": 0.8068,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.7385,
+     "skill": 0.6513,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9527,
+     "skill": 0.9053,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6115,
+     "skill": 0.223,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.5588,
+     "skill": 0.5554,
+     "coverage": 0.9875
+    },
+    "23": {
+     "raw": 0.6407,
+     "skill": 0.2813,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.42,
+     "skill": 0.1583,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7557,
+     "skill": 0.6946,
+     "coverage": 1
+    }
+   }
+  },
+  "decision-27b-ckpt-nothink": {
+   "name": "Fastino GLiDE no-thinking (28B)",
+   "public_index": 59.06,
+   "benchmarks": {
+    "25": {
+     "raw": 0.5204,
+     "skill": 0.3605,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.6763,
+     "skill": 0.6122,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.1728,
+     "skill": 0.0991,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.6529,
+     "skill": 0.4482,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.2958,
+     "skill": 0.2865,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.7316,
+     "skill": 0.5741,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7746,
+     "skill": 0.5492,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1257,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.7055,
+     "skill": 0.6688,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.7834,
+     "skill": 0.686,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.8595,
+     "skill": 0.719,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.789,
+     "skill": 0.6949,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7331,
+     "skill": 0.6002,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9502,
+     "skill": 0.9336,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.2452,
+     "skill": 0.2211,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9206,
+     "skill": 0.8832,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.3949,
+     "skill": 0.2216,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.6957,
+     "skill": 0.5436,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.844,
+     "skill": 0.6965,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.7655,
+     "skill": 0.5138,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.7964,
+     "skill": 0.7938,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.8738,
+     "skill": 0.873,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.5011,
+     "skill": 0.4356,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.5846,
+     "skill": 0.479,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.6885,
+     "skill": 0.377,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.7385,
+     "skill": 0.477,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9776,
+     "skill": 0.9697,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6832,
+     "skill": 0.6341,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.8504,
+     "skill": 0.8475,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.9205,
+     "skill": 0.9205,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.8341,
+     "skill": 0.7788,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.94,
+     "skill": 0.88,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6084,
+     "skill": 0.2169,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.7025,
+     "skill": 0.7001,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.6514,
+     "skill": 0.3028,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.4111,
+     "skill": 0.1453,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7159,
+     "skill": 0.6449,
+     "coverage": 1
+    }
+   }
+  },
+  "torchcast-decision-27b": {
+   "name": "Torchcast Decision 27B",
+   "public_index": 65.1,
+   "benchmarks": {
+    "25": {
+     "raw": 0.5153,
+     "skill": 0.3537,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.6467,
+     "skill": 0.5807,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.1806,
+     "skill": 0.1075,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.6729,
+     "skill": 0.48,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.1503,
+     "skill": 0.139,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.786,
+     "skill": 0.6604,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7448,
+     "skill": 0.4896,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1337,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.7039,
+     "skill": 0.667,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.8072,
+     "skill": 0.7205,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.9384,
+     "skill": 0.8768,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.8646,
+     "skill": 0.8042,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7875,
+     "skill": 0.6817,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9762,
+     "skill": 0.9683,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.573,
+     "skill": 0.5593,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.932,
+     "skill": 0.9,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.5007,
+     "skill": 0.3577,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.8195,
+     "skill": 0.7293,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.862,
+     "skill": 0.7315,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.86,
+     "skill": 0.7097,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.9107,
+     "skill": 0.9096,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.9347,
+     "skill": 0.9343,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.5073,
+     "skill": 0.4426,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.6162,
+     "skill": 0.5186,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.7035,
+     "skill": 0.407,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.8942,
+     "skill": 0.7884,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.977,
+     "skill": 0.9689,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6837,
+     "skill": 0.6347,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.8524,
+     "skill": 0.8496,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.8977,
+     "skill": 0.8977,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.8896,
+     "skill": 0.8528,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9555,
+     "skill": 0.911,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.626,
+     "skill": 0.2519,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.5037,
+     "skill": 0.4999,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.7191,
+     "skill": 0.4382,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.6026,
+     "skill": 0.4233,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7898,
+     "skill": 0.7372,
+     "coverage": 1
+    }
+   }
+  },
+  "kev-27b": {
+   "name": "Kev 27B",
+   "public_index": 56.69,
+   "benchmarks": {
+    "25": {
+     "raw": 0.4745,
+     "skill": 0.2993,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.7127,
+     "skill": 0.6554,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.1828,
+     "skill": 0.1099,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.6463,
+     "skill": 0.4377,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.2782,
+     "skill": 0.2686,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.7719,
+     "skill": 0.6381,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7416,
+     "skill": 0.4832,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1158,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.6728,
+     "skill": 0.632,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.7986,
+     "skill": 0.7081,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.8832,
+     "skill": 0.7664,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.7784,
+     "skill": 0.6796,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7094,
+     "skill": 0.5647,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.944,
+     "skill": 0.9253,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.2328,
+     "skill": 0.2083,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9402,
+     "skill": 0.912,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.6133,
+     "skill": 0.5025,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.6829,
+     "skill": 0.5243,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.8312,
+     "skill": 0.6716,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.8061,
+     "skill": 0.598,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.8606,
+     "skill": 0.8588,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.8656,
+     "skill": 0.8648,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.4848,
+     "skill": 0.4172,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.5736,
+     "skill": 0.4651,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.624,
+     "skill": 0.248,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.6987,
+     "skill": 0.3974,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9782,
+     "skill": 0.9705,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6836,
+     "skill": 0.6346,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.8307,
+     "skill": 0.8274,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.6364,
+     "skill": 0.6364,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.6208,
+     "skill": 0.4944,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9528,
+     "skill": 0.9056,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6244,
+     "skill": 0.2489,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.3572,
+     "skill": 0.3522,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.6441,
+     "skill": 0.2882,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.4051,
+     "skill": 0.1366,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7027,
+     "skill": 0.6284,
+     "coverage": 1
+    }
+   }
+  },
+  "quyet-1.0-large": {
+   "name": "Quyet-1.0-Large",
+   "public_index": 60.79,
+   "benchmarks": {
+    "25": {
+     "raw": 0.4898,
+     "skill": 0.3197,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.8355,
+     "skill": 0.8028,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.228,
+     "skill": 0.1592,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.6343,
+     "skill": 0.4186,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.3006,
+     "skill": 0.2913,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.7772,
+     "skill": 0.6465,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.7508,
+     "skill": 0.5016,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1317,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.6705,
+     "skill": 0.6294,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.8969,
+     "skill": 0.8506,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.91,
+     "skill": 0.82,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.8484,
+     "skill": 0.7808,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.7638,
+     "skill": 0.6462,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9571,
+     "skill": 0.9428,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.3256,
+     "skill": 0.304,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9657,
+     "skill": 0.9496,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.4801,
+     "skill": 0.3312,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.7756,
+     "skill": 0.6635,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.8429,
+     "skill": 0.6944,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.838,
+     "skill": 0.6641,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.8471,
+     "skill": 0.8451,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.9123,
+     "skill": 0.9118,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.459,
+     "skill": 0.388,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.4813,
+     "skill": 0.3493,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.9,
+     "skill": 0.8,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.811,
+     "skill": 0.622,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9746,
+     "skill": 0.9657,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6646,
+     "skill": 0.6126,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.8445,
+     "skill": 0.8415,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.5682,
+     "skill": 0.5682,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.6763,
+     "skill": 0.5684,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9241,
+     "skill": 0.8481,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6336,
+     "skill": 0.2671,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.1793,
+     "skill": 0.1729,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.6655,
+     "skill": 0.3309,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.4379,
+     "skill": 0.1843,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.767,
+     "skill": 0.7087,
+     "coverage": 1
+    }
+   }
+  },
+  "clef": {
+   "name": "Cloudflare clef",
+   "public_index": 61.71,
+   "benchmarks": {
+    "25": {
+     "raw": 0.4847,
+     "skill": 0.3129,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.5993,
+     "skill": 0.5214,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.245,
+     "skill": 0.1777,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.8378,
+     "skill": 0.7421,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.3345,
+     "skill": 0.3257,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.8649,
+     "skill": 0.7857,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.9408,
+     "skill": 0.8816,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1277,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.6597,
+     "skill": 0.6173,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.7363,
+     "skill": 0.6178,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.9353,
+     "skill": 0.8706,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.8135,
+     "skill": 0.7303,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.6997,
+     "skill": 0.5502,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.9818,
+     "skill": 0.9757,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.3317,
+     "skill": 0.3103,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9609,
+     "skill": 0.9425,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.4639,
+     "skill": 0.3103,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.5934,
+     "skill": 0.3901,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.8298,
+     "skill": 0.6689,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.7954,
+     "skill": 0.5758,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.9408,
+     "skill": 0.94,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.9741,
+     "skill": 0.9739,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.4746,
+     "skill": 0.4057,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.5737,
+     "skill": 0.4653,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.7935,
+     "skill": 0.587,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.6558,
+     "skill": 0.3116,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9847,
+     "skill": 0.9793,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6906,
+     "skill": 0.6427,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.9193,
+     "skill": 0.9177,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.8068,
+     "skill": 0.8068,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.7245,
+     "skill": 0.6327,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.9703,
+     "skill": 0.9406,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.6655,
+     "skill": 0.3311,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.1547,
+     "skill": 0.148,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.6698,
+     "skill": 0.3396,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.6868,
+     "skill": 0.5454,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.7027,
+     "skill": 0.6284,
+     "coverage": 1
+    }
+   }
+  },
+  "jpt-9b": {
+   "name": "JPT-9B",
+   "public_index": 46.96,
+   "benchmarks": {
+    "25": {
+     "raw": 0.4133,
+     "skill": 0.2177,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.4886,
+     "skill": 0.3887,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.149,
+     "skill": 0.0731,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.5479,
+     "skill": 0.2812,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.2358,
+     "skill": 0.2257,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.5561,
+     "skill": 0.2958,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.669,
+     "skill": 0.338,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1218,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.5472,
+     "skill": 0.4907,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.694,
+     "skill": 0.5565,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.7459,
+     "skill": 0.4918,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.822,
+     "skill": 0.7425,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.6659,
+     "skill": 0.4996,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.859,
+     "skill": 0.812,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.2278,
+     "skill": 0.2031,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.9317,
+     "skill": 0.8995,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.5639,
+     "skill": 0.4389,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.6443,
+     "skill": 0.4664,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.7899,
+     "skill": 0.5912,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.7619,
+     "skill": 0.5063,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.6543,
+     "skill": 0.6499,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.362,
+     "skill": 0.3581,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.469,
+     "skill": 0.3992,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.5264,
+     "skill": 0.406,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.7605,
+     "skill": 0.521,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.6635,
+     "skill": 0.327,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.9486,
+     "skill": 0.9307,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.6172,
+     "skill": 0.5579,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.7874,
+     "skill": 0.7833,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0.4318,
+     "skill": 0.4318,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.6796,
+     "skill": 0.5728,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.8621,
+     "skill": 0.7243,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.5974,
+     "skill": 0.1948,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.0428,
+     "skill": 0.0353,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.5568,
+     "skill": 0.1137,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.4021,
+     "skill": 0.1323,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.6212,
+     "skill": 0.5265,
+     "coverage": 1
+    }
+   }
+  },
+  "jpt-0.8b": {
+   "name": "JPT-0.8B",
+   "public_index": 19.37,
+   "benchmarks": {
+    "25": {
+     "raw": 0.301,
+     "skill": 0.068,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.21,
+     "skill": 0.0423,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.0846,
+     "skill": 0.003,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.4761,
+     "skill": 0.1671,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.0394,
+     "skill": 0.0266,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.3386,
+     "skill": 0,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.544,
+     "skill": 0.088,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1717,
+     "skill": 0.0091,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.2795,
+     "skill": 0.1896,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.4567,
+     "skill": 0.2125,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.532,
+     "skill": 0.064,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.7274,
+     "skill": 0.6058,
+     "coverage": 1
+    },
+    "12": {
+     "raw": 0.3856,
+     "skill": 0.0797,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.486,
+     "skill": 0.3147,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.0732,
+     "skill": 0.0436,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.7806,
+     "skill": 0.6773,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.2655,
+     "skill": 0.0551,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.4399,
+     "skill": 0.1599,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.6283,
+     "skill": 0.2768,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.5534,
+     "skill": 0.074,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.3541,
+     "skill": 0.3458,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.1046,
+     "skill": 0.0992,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.3277,
+     "skill": 0.2394,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.301,
+     "skill": 0.1233,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.5205,
+     "skill": 0.041,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.5485,
+     "skill": 0.097,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.7674,
+     "skill": 0.686,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.5285,
+     "skill": 0.4555,
+     "coverage": 1
+    },
+    "3": {
+     "raw": 0.3012,
+     "skill": 0.2877,
+     "coverage": 1
+    },
+    "9": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.4995,
+     "skill": 0.3327,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.4996,
+     "skill": 0,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.5221,
+     "skill": 0.0441,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.025,
+     "skill": 0.0174,
+     "coverage": 1
+    },
+    "23": {
+     "raw": 0.536,
+     "skill": 0.0721,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.3944,
+     "skill": 0.1211,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.4015,
+     "skill": 0.2519,
+     "coverage": 1
+    }
+   }
+  },
+  "lavoir": {
+   "name": "Lavoir",
+   "public_index": 8.85,
+   "benchmarks": {
+    "25": {
+     "raw": 0.2551,
+     "skill": 0.0068,
+     "coverage": 1
+    },
+    "30": {
+     "raw": 0.1884,
+     "skill": 0.0179,
+     "coverage": 1
+    },
+    "31": {
+     "raw": 0.0854,
+     "skill": 0.0039,
+     "coverage": 1
+    },
+    "32": {
+     "raw": 0.4189,
+     "skill": 0.0762,
+     "coverage": 1
+    },
+    "33": {
+     "raw": 0.0424,
+     "skill": 0.0297,
+     "coverage": 1
+    },
+    "43": {
+     "raw": 0.3947,
+     "skill": 0.0397,
+     "coverage": 1
+    },
+    "44": {
+     "raw": 0.5036,
+     "skill": 0.0072,
+     "coverage": 1
+    },
+    "45": {
+     "raw": 0.1597,
+     "skill": 0,
+     "coverage": 1
+    },
+    "57": {
+     "raw": 0.1553,
+     "skill": 0.0499,
+     "coverage": 1
+    },
+    "58": {
+     "raw": 0.3505,
+     "skill": 0.0586,
+     "coverage": 1
+    },
+    "28": {
+     "raw": 0.5083,
+     "skill": 0.0166,
+     "coverage": 1
+    },
+    "11": {
+     "raw": 0.2983,
+     "skill": 0,
+     "coverage": 0.9919
+    },
+    "12": {
+     "raw": 0.3686,
+     "skill": 0.0542,
+     "coverage": 1
+    },
+    "29": {
+     "raw": 0.4199,
+     "skill": 0.2265,
+     "coverage": 1
+    },
+    "38": {
+     "raw": 0.0391,
+     "skill": 0.0084,
+     "coverage": 1
+    },
+    "39": {
+     "raw": 0.5894,
+     "skill": 0.3961,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.4629,
+     "skill": 0.309,
+     "coverage": 1
+    },
+    "41": {
+     "raw": 0.3513,
+     "skill": 0.027,
+     "coverage": 1
+    },
+    "42": {
+     "raw": 0.4869,
+     "skill": 0.0018,
+     "coverage": 1
+    },
+    "59": {
+     "raw": 0.2471,
+     "skill": 0,
+     "coverage": 1
+    },
+    "4": {
+     "raw": 0.2795,
+     "skill": 0.2702,
+     "coverage": 1
+    },
+    "5": {
+     "raw": 0.0944,
+     "skill": 0.0889,
+     "coverage": 1
+    },
+    "36": {
+     "raw": 0.1669,
+     "skill": 0.0575,
+     "coverage": 1
+    },
+    "37": {
+     "raw": 0.2815,
+     "skill": 0.0988,
+     "coverage": 1
+    },
+    "56": {
+     "raw": 0.5,
+     "skill": 0,
+     "coverage": 1
+    },
+    "61": {
+     "raw": 0.5965,
+     "skill": 0.193,
+     "coverage": 1
+    },
+    "1": {
+     "raw": 0.3949,
+     "skill": 0.1832,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.2745,
+     "skill": 0.1622,
+     "coverage": 0.9927
+    },
+    "3": {
+     "raw": 0.2815,
+     "skill": 0.2676,
+     "coverage": 0.9961
+    },
+    "9": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 1
+    },
+    "62": {
+     "raw": 0.2338,
+     "skill": 0,
+     "coverage": 1
+    },
+    "20": {
+     "raw": 0.4947,
+     "skill": 0,
+     "coverage": 1
+    },
+    "21": {
+     "raw": 0.465,
+     "skill": 0,
+     "coverage": 1
+    },
+    "22": {
+     "raw": 0.0237,
+     "skill": 0.0161,
+     "coverage": 0.9995
+    },
+    "23": {
+     "raw": 0.4899,
+     "skill": 0,
+     "coverage": 1
+    },
+    "50": {
+     "raw": 0.3484,
+     "skill": 0.0544,
+     "coverage": 1
+    },
+    "64": {
+     "raw": 0.3295,
+     "skill": 0.1619,
+     "coverage": 1
+    }
+   }
+  },
+  "verdict-8af2496e": {
+   "name": "Verdict",
+   "public_index": 1.86,
+   "benchmarks": {
+    "25": {
+     "raw": 0.1276,
+     "skill": 0,
+     "coverage": 0.4439
+    },
+    "30": {
+     "raw": 0.0307,
+     "skill": 0,
+     "coverage": 0.2388
+    },
+    "31": {
+     "raw": 0.0468,
+     "skill": 0,
+     "coverage": 0.2698
+    },
+    "32": {
+     "raw": 0.3577,
+     "skill": 0,
+     "coverage": 0.8723
+    },
+    "33": {
+     "raw": 0.0006,
+     "skill": 0,
+     "coverage": 0.0509
+    },
+    "43": {
+     "raw": 0.3175,
+     "skill": 0,
+     "coverage": 0.8088
+    },
+    "44": {
+     "raw": 0.005,
+     "skill": 0,
+     "coverage": 0.0132
+    },
+    "45": {
+     "raw": 0.0818,
+     "skill": 0,
+     "coverage": 0.5469
+    },
+    "57": {
+     "raw": 0.0795,
+     "skill": 0,
+     "coverage": 0.5914
+    },
+    "58": {
+     "raw": 0.3323,
+     "skill": 0.0322,
+     "coverage": 0.9886
+    },
+    "28": {
+     "raw": 0.4839,
+     "skill": 0,
+     "coverage": 0.9795
+    },
+    "11": {
+     "raw": 0.0631,
+     "skill": 0,
+     "coverage": 0.252
+    },
+    "12": {
+     "raw": 0.0153,
+     "skill": 0,
+     "coverage": 0.1025
+    },
+    "29": {
+     "raw": 0.2408,
+     "skill": 0,
+     "coverage": 0.6867
+    },
+    "38": {
+     "raw": 0.0364,
+     "skill": 0.0055,
+     "coverage": 0.9962
+    },
+    "39": {
+     "raw": 0.4211,
+     "skill": 0.1486,
+     "coverage": 1
+    },
+    "40": {
+     "raw": 0.1012,
+     "skill": 0,
+     "coverage": 0.7857
+    },
+    "41": {
+     "raw": 0.1301,
+     "skill": 0,
+     "coverage": 0.4617
+    },
+    "42": {
+     "raw": 0.0835,
+     "skill": 0,
+     "coverage": 0.162
+    },
+    "59": {
+     "raw": 0.1175,
+     "skill": 0,
+     "coverage": 0.9874
+    },
+    "4": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 0
+    },
+    "5": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 0
+    },
+    "36": {
+     "raw": 0.025,
+     "skill": 0,
+     "coverage": 0.2773
+    },
+    "37": {
+     "raw": 0.0393,
+     "skill": 0,
+     "coverage": 0.4292
+    },
+    "56": {
+     "raw": 0.013,
+     "skill": 0,
+     "coverage": 0.0235
+    },
+    "61": {
+     "raw": 0.202,
+     "skill": 0,
+     "coverage": 0.3905
+    },
+    "1": {
+     "raw": 0.3878,
+     "skill": 0.1736,
+     "coverage": 1
+    },
+    "2": {
+     "raw": 0.1379,
+     "skill": 0.0044,
+     "coverage": 0.7241
+    },
+    "3": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 0
+    },
+    "9": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 0
+    },
+    "62": {
+     "raw": 0.3568,
+     "skill": 0.1424,
+     "coverage": 0.9693
+    },
+    "20": {
+     "raw": 0.0858,
+     "skill": 0,
+     "coverage": 0.3132
+    },
+    "21": {
+     "raw": 0.0335,
+     "skill": 0,
+     "coverage": 0.0868
+    },
+    "22": {
+     "raw": 0,
+     "skill": 0,
+     "coverage": 0
+    },
+    "23": {
+     "raw": 0.0069,
+     "skill": 0,
+     "coverage": 0.0192
+    },
+    "50": {
+     "raw": 0.3735,
+     "skill": 0.0908,
+     "coverage": 0.9911
+    },
+    "64": {
+     "raw": 0.0076,
+     "skill": 0,
+     "coverage": 0.0095
+    }
+   }
+  }
+ }
+}

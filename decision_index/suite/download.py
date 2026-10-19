@@ -42,7 +42,7 @@ def copy_rows(src, dst):
         shutil.copyfileobj(f, g)
 
 
-def from_local(directory, rows, exclusions=None, manifest=None, verify=True, edition=None, added=None):
+def from_local(directory, rows, exclusions=None, manifest=None, verify=True, edition=None, added=None, gsm8k=None):
     e = editions.get(edition)
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True)
@@ -51,6 +51,10 @@ def from_local(directory, rows, exclusions=None, manifest=None, verify=True, edi
         if not added:
             raise ValueError(f"edition {e['id']} needs --added-rows")
         copy_rows(added, directory / editions.ADDED_FILE)
+    if e.get("gsm8k_sha256"):
+        if not gsm8k:
+            raise ValueError(f"edition {e['id']} needs --gsm8k-rows")
+        copy_rows(gsm8k, directory / editions.GSM8K_FILE)
     exclusions = exclusions or hub_file(e["id"], editions.EXCLUSIONS_FILE)
     manifest = manifest or hub_file(e["id"], editions.MANIFEST_FILE)
     if exclusions:

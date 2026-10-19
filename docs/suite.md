@@ -1,5 +1,19 @@
 # The frozen suite: sources, sampling and licences
 
+## Edition 0.3
+
+Edition 0.3 reads the 0.2.1 files unchanged and adds one: `gsm8k-rows.jsonl.gz`, the 2,638 GSM8K requests (catalog 30) rebuilt so the options no longer give the answer away (issue #32). At read time the old GSM8K rows are skipped and the rebuilt ones are used instead, and ForecastBench (catalog 48) is skipped: it is retired from the index and from the run. That leaves 110,201 requests, 109,759 after the 442 exclusions, plus the 30,419 of the seven benchmarks added in 0.2. `hub/0.3/manifest.json` records the new file under `files`, `retired` and `replaced`.
+
+**How GSM8K is rebuilt (`answer-groups-v1`, seed 20261003).** In 0.2 every distractor was computed from the gold (gold ± 1, ± 2, ± 5, ± 10, × 2, × 10, // 2), so the gold was the one value most other options were a fixed offset from, and it nearly always sat in the middle of the sorted values; rules that never read the problem scored far above chance. In 0.3 each distractor is the gold answer of a different GSM8K test problem of similar size, and no option is computed from the row's own gold:
+
+1. Sort the 1,319 test problems by gold (ties by `sha256("20261003:order:<i>")`) and cut the sorted list into bands of 10·m problems, m the smallest value such that no tied run inside the band is longer than m.
+2. Inside a band, positions t·m + j (t = 0…9) form group j: 10 problems with 10 distinct golds. 1,319 = 131 × 10 + 9, so nine problems with distinct golds form one extra group, completed by the next distinct test gold above them.
+3. 10-choice: every problem of a group gets the group's 10 golds as options, so any rule that looks only at the option values scores exactly 1 in 10.
+4. 4-choice: the group's values sit on a ring in sorted order; each group gets a shift c in 0…3, balanced over blocks of four neighbouring groups (`random.Random("20261003:shifts:<block>")`), and the problem whose gold is at ring position x gets the four values at x − c … x − c + 3. Every 4-choice set is a subset of that problem's 10-choice set.
+5. Option order is shuffled per row with `random.Random("20261003:GSM:<i>:<count>")`.
+
+Row `id`, `group_id`, `track`, `state`, instructions, option count and gold are unchanged; `run_id` is `v0.3-gsm8k:` + the 0.2 run id, so a 0.2.1 `results.jsonl` resumed under 0.3 runs only these 2,638 requests. `suite rebuild --edition 0.3` builds the file from the pinned GSM8K test parquet and the release-v2 rows (`decision_index/suite/build/gsm8k_v3.py`); its uncompressed sha256 is pinned in `editions.py` (`75933489…`) and checked by `suite verify`. Chance stays 0.25 and 0.10 per track.
+
 ## Edition 0.2.1
 
 Edition 0.2.1 rescores 0.2: the row files, their hashes and the exclusions are the same, and three more scoring subsets are applied at read time, like the ACOS one. `run`, `sample` and `score` skip the rows outside them.

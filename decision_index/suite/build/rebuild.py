@@ -47,7 +47,9 @@ def compare(rebuilt, reference, log=print):
 def main(work, only=None, skip_download=False, skip_normalize=False, compare_path=None, log=print, compare=None, edition="0.1", exclusions=None):
     from decision_index import editions
 
-    if editions.compatible(edition, "0.2"):
+    if editions.get(edition).get("gsm8k_sha256"):
+        return main_v3(work, only, skip_download, skip_normalize, compare or compare_path, log, exclusions, editions.get(edition))
+    if editions.v2_family(edition):
         return main_v2(work, only, skip_download, skip_normalize, compare or compare_path, log, exclusions)
     return main_v1(work, only, skip_download, skip_normalize, compare or compare_path, log)
 
@@ -72,6 +74,21 @@ def main_v2(work, only, skip_download, skip_normalize, reference, log, exclusion
     result.update(v2)
     if reference and v1_rows is not None:
         result["comparison"] = compare(Path(v2["out"]) / "selected-rows.jsonl", Path(reference), log=log)
+    return result
+
+
+def main_v3(work, only, skip_download, skip_normalize, reference, log, exclusions, edition):
+    from decision_index.suite.build import gsm8k_v3
+
+    result = main_v2(work, only, skip_download, skip_normalize, reference, log, exclusions)
+    result["edition"] = edition["id"]
+    rows = Path(result["out"]) / C.SUITE_ROWS_FILE if result.get("out") else None
+    if rows is None or not rows.exists():
+        log(json.dumps({"event": "gsm8k_v3_skipped", "reason": "no release-v2 rows to read the GSM8K rows from"}))
+        return result
+    gsm = gsm8k_v3.main(Layout(work), rows, log=log)
+    gsm.update(expected_sha256=edition["gsm8k_sha256"], byte_identical=gsm["gsm8k_sha256"] == edition["gsm8k_sha256"])
+    result["gsm8k"] = gsm
     return result
 
 
